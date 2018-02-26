@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>What shade of lipstick?</title>
+</head>
+<body>
+  <h1> Which lipstick is your shade today? </h1>
+  <div>
+  <div> <input> <placeholder="Something"></input>
+  </div>
+  <button>Add</button>
+  </div>
+  <button>GO!</button>
+</body>
+</html>
