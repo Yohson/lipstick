@@ -2,17 +2,30 @@
 <html lang=en>
 <head>
   <meta charset=utf-8>
-  <link href="./main.css" rel="stylesheet" type="text/css">
   <title>What shade of lipstick?</title>
+  <link href="./main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1> Which lipstick is your shade today? </h1>
-  <div class="inputsection">
+  <h1>Which lipstick colour should I wear?</h1>
+  <div class="inputSection">
     <div class=inputs>
   <input> <placeholder="Something"></input>
   </div>
   <button class=AddOption>Add</button>
   </div>
+  <div class="resultSection"></div>
   <button>GO!</button>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+  $(function() {
+    $'.resultSection'.hide()
+
+    var add_option=function(){
+      $('.inputs').append('<input></input>')
+    }
+
+$('.AddOption').click(add_option)
+  })
+  </script>
 </body>
 </html>
